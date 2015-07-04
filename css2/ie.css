@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+#book{
+width:980px;
+height:430px;
+display:block;
+position:relative; margin-top:-88px; margin-left:0px; z-index:1; 
+}
+
+#conteinicio{
+width:980px;
+height:440px;
+display:block;
+position:relative; margin-top:-88px; margin-left:0px; z-index:2; 
+}
+
+#hlinsertatucod{
+width:235px;
+height:125px;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/hl-inserta-tu-codigo.png", sizingMethod=”scale”);
+}
+
+#bgnoticias{
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-noticias-moxie.png", sizingMethod=”scale”);
+}
+
+#hlsiguenosen{
+width:235px;
+height:108px;
+display:block;
+cursor:pointer;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/hl-siguenos-en.png", sizingMethod=”scale”);
+}
+
+#bgnoticias{
+width:580px;
+height:402px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-noticias-moxie.png", sizingMethod=”scale”);
+}
+
+#bgdescargas{
+width:580px;
+height:402px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-descargas-moxie.png", sizingMethod=”scale”);
+}
+
+#cuponprintbg{
+width:890px;
+height:440px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/cupon-print-bg.png", sizingMethod=”scale”);
+}
+
+#videoprincipal{
+    margin-left:0px;
+}
+
+#bgcontacto{
+width:580px;
+height:402px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-contacto-moxie.png", sizingMethod=â€�scaleâ€�);
+}
+
+#bgavisolegal{
+width:580px;
+height:402px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-aviso-legal-moxie.png", sizingMethod=â€�scaleâ€�);
+}
+
+#bgmapaweb{
+width:580px;
+height:402px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-mapa-web-moxie.png", sizingMethod=â€�scaleâ€�);
+}
+#codigo{
+    float:left;
+    margin-left:41px;
+    margin-top:63px;
+    width:120px;
+    height:20px;
+    border:none;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+}

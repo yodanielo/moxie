@@ -1,0 +1,29 @@
+#videoprincipal1{
+    /*margin-top:-5px;*/
+    margin-left:3px;
+    padding-left:15px;
+}
+#navfoto{
+    line-height:9px;
+}
+#inicol2{
+    /*margin-top:10px;*/
+}
+#inicol1 #hlinsertatucod{
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/hl-inserta-tu-codigo.png", sizingMethod=”scale”);
+}
+#inicol1 #hlsiguenosen {
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/hl-siguenos-en.png", sizingMethod=”scale”);
+}
+#blobuscar{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/busqueda-bg-videos-encontrados.png", sizingMethod=”scale”);
+}
+#dlgcomparte #btncerrar{
+    background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/email-ico-cerrar-lbox.jpg", sizingMethod=”scale”);
+    z-index:300;
+}
+

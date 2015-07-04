@@ -1,0 +1,980 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#pagina{
+    width:980px;
+    min-height:585px;
+    background:url(../images/bg-moxie.jpg) no-repeat;
+    float:left;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-top:-293px;
+    margin-left:-490px;
+}
+#logo{
+    width:234px;
+    height:197px;
+    float:left;
+    /*background:url(../images/logoflash-moxie.png) no-repeat;*/
+}
+#menu{
+    width:auto;
+    height:99px;
+    float:left;
+    /*background:url(../images/menuflash-moxie.png) no-repeat;*/
+}
+#cuadrovideos{
+    font-family:Arial, Tahoma, serif;
+    font-size:12px;
+    font-weight:bold;
+    color:#000000;
+    background:url(../images/cuadro-videos-moxie.png) no-repeat;
+    float:right;
+    margin:36px 51px 0px 0px;
+    width:245px;
+    height:146px;
+    padding:48px 0px 0px 17px;
+    line-height:18px;
+    text-align:left;
+}
+#buscador{
+    margin:6px 51px 0px 0px;
+    width:262px;
+    height:40px;
+    float:right;
+    clear:right;
+    text-align:left;
+    background:url(../images/buscador-moxie.png) no-repeat;
+}
+#query{
+    border:none;
+    background:none;
+    width:107px;
+    height:16px;
+    padding-top:3px;
+    float:left;
+    margin:11px 0px 0px 126px;
+    font-family:Arial;
+    font-size:11px;
+}
+#btnquery{
+    border:none;
+    width:15px;
+    height:22px;
+    float:left;
+    margin:9px 0px 0px 6px;
+    cursor:pointer;
+}
+#videosninas{
+    width:225px;
+    height:139px;
+    margin:0px 61px 0px 0px;
+    float:right;
+    clear:right;
+    background-repeat:no-repeat;
+}
+.tumbfoto{
+    width:103px;
+    height:55px;
+    margin-left:5px;
+    margin-bottom:5px;
+    float:left;
+    cursor:pointer;
+}
+.tumbfoto img{
+    border:1px solid #FFFFFF;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+.tumbfoto img:hover{
+    border:1px solid #FE5BAC;
+}
+.vermas{
+    background:url(../images/btn-ver-mas-moxie.png) no-repeat;
+    width:39px;
+    height:13px;
+    float:right;
+    cursor:pointer;
+}
+#detlosnuestros .vermas{
+    margin-top:21px;
+}
+#videosninas .contfoto{
+    float:left;
+    width:221px;
+    /*height:120px;*/
+    padding-top:5px;
+    border:1px solid #FE5BAC;
+}
+.navfoto{
+    width:206px;
+    float:left;
+    margin:0px 6px 6px 6px;
+    text-align:left;
+    line-height:11px;
+    background:#FE5DAD;
+    padding-right:3px;
+    padding-left:3px;
+    word-spacing:-1px;
+}
+.navfoto .numpagfoto, .numpagfoto_selected, .numpagfotobajo{
+    /*float:right;*/
+    width:20px;
+    color:#FFFFFF;
+    text-decoration:none;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:9px;
+}
+.navfoto .numpagfoto:hover, .numpagfoto_selected{
+    text-decoration:underline;
+}
+.numpagfotobajo{
+    color:#FD9CCF;
+    cursor:default;
+}
+.d3{
+    letter-spacing:-1px;
+}
+#detlosnuestros .navfoto{
+    height:56px;
+}
+#ultpag{
+    width:25px;
+}
+#losnuestros{
+    width:226px;
+    height:348px;
+    float:left;
+    clear:left;
+    margin-left:76px;
+    margin-top:9px;
+}
+#detlosnuestros{
+    width:226px;
+    float:left;
+}
+#titlosnuestros{
+    background:url(../images/moxie-videos_tit_chicas.gif) no-repeat;
+    width:164px;
+    height:19px;
+    float:left;
+    margin-bottom:5px;
+}
+#losnuestros .contfoto{
+    float:left;
+    width:221px;
+    /*height:300px;*/
+    background:#FFFFFF;
+    border:1px solid #FE5BAC;
+    padding-top:5px;
+}
+#vidtitulo{
+    background:url(../images/videos-moxie.jpg) bottom left no-repeat;
+    text-indent:162px;
+    font-family: Arial, sans-serif, Tahoma, Verdana;
+    font-size: 13px;
+    color:#000000;
+    padding-right:10px;
+    font-weight:bold;
+    float:left;
+    width:330px;
+    height:26px;
+    line-height:20px;
+    text-align:right;
+}
+#vidcontenedor{
+    width:330px;
+    /*height:200px;*/
+    margin-bottom:-4px;
+    background:url(../images/loading.gif) no-repeat center;
+    float:left;
+}
+#videoprincipal{
+    width:300px;
+    float:left;
+    margin-top:-85px;
+    margin-left:18px;
+}
+#videoprincipal1{
+    width:300px;
+    float:left;
+    margin-top:-85px;
+    margin-left:18px;
+}
+#panelcompartir{
+    background:url(../images/moxie-videos_bg-comparte.png) no-repeat;
+    float:left;
+    width:335px;
+    height:60px;
+    margin-top:10px;
+    cursor:pointer;
+}
+/*para el carousel*/
+#panelcarousel{
+    width:363px;
+    height:64px;
+    float:left;
+    margin-left:-16px;
+}
+#flecizq{
+    width:16px;
+    height:65px;
+    float:left;
+    cursor:pointer;
+    background:url(../images/moxie-videos_carrusel-flechita-izq.gif) no-repeat center right;
+}
+#flecder{
+    cursor:pointer;
+    width:16px;
+    height:65px;
+    float:left;
+    display:inline;
+    background:url(../images/moxie-videos_carrusel-flechita-der.gif) no-repeat;
+}
+#contcarousel{
+    width:327px;
+    height:64px;
+    border:1px solid #FE5BAC;
+    float:left;
+    overflow:hidden;
+}
+#contcarousel ul{
+    width:auto;
+    float:left;
+    width:850px;
+}
+#contcarousel li{
+    float:left;
+    list-style:none;
+    margin:3px 0px 3px 3px;
+    cursor:pointer;
+}
+#contcarousel li img{
+    width:103px;
+    height:55px;
+    border:1px solid #FFFFFF;
+}
+#contcarousel li img:hover{
+    border:1px solid #FFCBE5;
+}
+/*para el formulario de comparte*/
+.jqmWindow {
+    display: none;
+
+    position: absolute;
+    top: 17%;
+    left: 50%;
+
+    margin-left: -300px;
+    width: 600px;
+
+    background-color:#FFFFFF;
+    border: 1px solid #000000;
+
+    color:#C6AD01;
+}
+/*para el formulario de busqueda*/
+#dlgbuscar{
+    display:none;
+    background-color: #ffffff;
+    border:1px;
+    color:#C6AD01;
+    margin-left: -300px;
+    width: 600px;
+}
+/*para el aviso de concurso*/
+#dlgconcurso{
+    position:absolute;
+    display:none;
+    background:none;
+    background:url(../images/concurso_bglb.png) no-repeat;
+    width:874px;
+    height:532px;
+    margin-left:-437px;
+    top:50%;
+    margin-top:-266px;
+}
+#conconcurso{
+    margin-top:15px;
+    width:786px;
+    margin-left:44px;
+    height:420px;
+    float:left;
+}
+#contitulo{
+    float:left;
+    width:766px;
+    height:43px;
+    background:url(../images/concurso_titulo.gif) no-repeat;
+}
+#concol1{
+    float:left;
+    width:400px;
+}
+#concol2{
+    float:left;
+    width:366px;
+}
+#contxt{
+    float:left;
+    width:366px;
+    height:510px;
+    margin-top:55px;
+    background:url(../images/concurso_texto.gif) no-repeat;
+}
+#contwitter{
+    float:left;
+    width:140px;
+    height:35px;
+    background:url(../images/concurso_twitter.jpg) no-repeat;
+}
+#conbases{
+    float:left;
+    width:121px;
+    height:35px;
+    margin-left:14px;
+    background:url(../images/concurso_pdf-bases.jpg) no-repeat;
+}
+.conimg{
+    float:left;
+    width:400px;
+    height:170px;
+}
+#conimg1{
+    background:url(../images/concurso_img1.jpg) no-repeat;
+}
+#conimg2{
+    background:url(../images/concurso_img2.jpg) no-repeat;
+}
+#conimg3{
+    background:url(../images/concurso_img3.jpg) no-repeat;
+}
+#conimg4{
+    background:url(../images/concurso_img4.jpg) no-repeat;
+}
+.jqmOverlay { background-color: #000; }
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}
+
+#filtitle{
+    font-family:Tahoma, "Times New Roman", Arial;
+    font-size:20px;
+    font-weight:bold;
+    float:left;
+    text-indent:15px;
+    width:100%;
+    text-align:left;
+    margin-top:15px;
+}
+#filde, #filpara{
+    font-family:Verdana, Arial, Tahoma;
+    font-size:16px;
+    font-weight:bold;
+    text-indent:15px;
+    float:left;
+    clear:left;
+    width:200px;
+    margin-bottom:15px;
+    margin-top:15px;
+    text-align:left;
+}
+.fillabel{
+    font-family:Tahoma, Verdana, Serif;
+    font-size:14px;
+    font-weight:bold;
+    text-indent:25px;
+    float:left;
+    clear:left;
+    width:200px;
+    text-align:left;
+}
+.inptext{
+    font-family:Tahoma, Verdana, Serif;
+    font-size:12px;
+    margin-left:25px;
+    float:left;
+    clear:left;
+    width:200px;
+    text-align:left;
+}
+.inptext input{
+    float:left;
+    width:100%;
+}
+#inpsubmit{
+    float:left;
+    clear:left;
+    margin-left:160px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+#inpsubmit input{
+    width:70px;
+    border:1px solid #fae500;
+    background:#e2007a;
+    color:#fae500;
+    text-align:center;
+    float:left;
+}
+#cuayoutube{
+    width:330px;
+    height:200px;
+    margin-right:45px;
+    margin-top:105px;
+    float:right;
+}
+.jqmWindow {
+    display: none;
+
+    position: fixed;
+    top: 17%;
+    left: 50%;
+
+    margin-left: -300px;
+    width: 600px;
+
+    background-color:#FFFFFF;
+}
+
+.jqmOverlay { background-color: #000; }
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}
+.novideos{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    width:100%;
+    text-align:center;
+    line-height:40px;
+}
+/*para el formulario de participa*/
+#dlgcomparte{
+    background:url(../images/email-bg-lbox.png) no-repeat;
+    width:660px;
+    height:400px;
+    border:none;
+    position:absolute;
+    z-index:150;
+}
+#dlgparticipa{
+    background:url(../images/participa-bg-lbox.png) no-repeat;
+    width:590px;
+    height:400px;
+    border:none;
+    position:absolute;
+}
+#dlgparticipa #contenido{
+    width:460px;
+    height:246px;
+    float:left;
+    margin-left:60px;
+    margin-top:67px;
+    padding-right:30px;
+    overflow:auto;
+    font-size: 10px;
+    color: #e2007a;
+    font-family: Arial, sans-serif, Tahoma, Verdana;
+    line-height: 16px;
+    text-align:justify;
+}
+.btncerrar{
+    background:url(../images/participa-ico-cerrar-lbox.jpg) no-repeat;
+    width:22px;
+    height:22px;
+    float:right;
+    margin-right:30px;
+    margin-top:18px;
+    cursor:pointer;
+    position:relative;
+    z-index:200;
+}
+
+#legales, #legales2, #legales_book{
+    margin-top:-5px;
+    margin-right:30px;
+    padding-top:5px;
+    float:right;
+    clear:right;
+    width:400px;
+    text-align:right;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #4cb3cd;
+}
+#legales a, #legales2 a{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #4cb3cd;
+    text-decoration:none;
+}
+
+/*para el scroll*/
+.scrollgeneric {
+line-height: 1px;
+font-size: 1px;
+position: absolute;
+top: 0; left: 0;
+}
+.vscrollerbase {
+width: 15px;
+background-color: #FFFFFF;
+}
+.vscrollerbar {
+width: 15px;
+background-color: #000000;
+}
+.hscrollerbase {
+height: 15px;
+background-color: #FFFFFF;
+}
+.hscrollerbar {
+height: 15px;
+background-color: #FFFFFF;
+}
+.hscrollerbar {
+background: #FFFFFF url(horizontalbarbody_cornerjog.png) 0px -30px repeat-x;
+}
+.vscrollerbar {
+background: #FFFFFF url(basebarcaps_verticalbarbody.png) -15px 0px repeat-y;
+}
+.vscrollerbar, .hscrollerbar {
+padding: 10px;
+z-index: 2;
+}
+
+.vscrollerbarbeg {
+background: url(basebarcaps_verticalbarbody.png) -45px -30px no-repeat;
+width: 15px;
+height: 15px !important;
+}
+.vscrollerbarend {
+background: url(basebarcaps_verticalbarbody.png) -45px 0px no-repeat;
+width: 15px;
+height: 15px;
+}
+
+.hscrollerbarbeg {
+background: url(basebarcaps_verticalbarbody.png) -60px -15px no-repeat;
+height: 15px;
+width: 15px !important;
+}
+
+.hscrollerbarend {
+background: url(basebarcaps_verticalbarbody.png) -30px -15px no-repeat;
+height: 15px;
+width: 15px;
+}
+
+.scrollerjogbox {
+background: #FFFFFF url(horizontalbarbody_cornerjog.png) 0px 0px;
+width: 15px;
+height: 15px;
+top: auto; left: auto;
+bottom: 0px; right: 0px;
+}
+.vscrollerbase {
+background: #FFFFFF url(basebarcaps_verticalbarbody.png) 0px 0px repeat-y;
+}
+
+.vscrollerbasebeg {
+background: url(basebarcaps_verticalbarbody.png) -30px -30px no-repeat;
+width: 15px;
+height: 15px !important; /*  Safari BG repeat fix */
+}
+
+.vscrollerbaseend {
+background: url(basebarcaps_verticalbarbody.png) -60px -30px no-repeat;
+height: 15px;
+width: 15px;
+}
+
+.hscrollerbase {
+background: #FFFFFF url(horizontalbarbody_cornerjog.png) 0px -15px repeat-x;
+}
+
+.hscrollerbasebeg {
+background: url(basebarcaps_verticalbarbody.png) -60px 0px no-repeat;
+height: 15px;
+width: 15px !important; /* Safari BG repeat fix */
+}
+
+.hscrollerbaseend {
+height: 15px;
+width: 15px;
+background: url(basebarcaps_verticalbarbody.png) -30px 0px no-repeat;
+}
+
+.scrollerjogbox:hover {
+background: #FFFFFF url(basebarcaps_verticalbarbody.png) -45px -15px;
+}
+
+#comcol1{
+    float:left;
+    margin-top:110px;
+    margin-left:63px;
+    width:210px;
+}
+.comptexto{
+    width:200px;
+    height:22px;
+    float:left;
+    margin-bottom:30px;
+    border:none;
+    background:none;
+}
+#txtdemail{
+    margin-bottom:60px;
+}
+.compsubmit{
+    width:70px;
+    height:22px;
+    float:right;
+    background:url(../images/email-ico-enviar.jpg) no-repeat right;
+    cursor:pointer;
+    color:#FFFFFF;
+    border:1px solid #FFFFFF;
+    margin-right:10px;
+    margin-top:-15px;
+}
+#dlgcomparte #btncerrar{
+    width:22px;
+    height:22px;
+    position:relative;
+    z-index:200;
+    left:600px;
+    top:20px;
+    cursor:pointer;
+    background:url(../images/email-ico-cerrar-lbox.jpg) no-repeat;
+}
+#titcarousel{
+    background:url(../images/moxie-videos_tit_destacados.gif) no-repeat;
+    width:104px;
+    height:18px;
+    float:left;
+}
+#titchicasmoxie{
+    background:url(../images/moxie-videos_tit_oficiales.gif) no-repeat;
+    width:106px;
+    height:17px;
+    float:right;
+    margin-right:180px;
+    margin-top:5px;
+}
+#comtwitter{
+    background:url(../images/comparte-b0-twitter.png) no-repeat;
+    width:70px;
+    height:20px;
+    float:left;
+    margin-left:23px;
+    margin-top:29px;
+}
+#comtuenti{
+    background:url(../images/comparte-b0-tuenti.png) no-repeat;
+    width:62px;
+    height:20px;
+    float:left;
+    margin-left:10px;
+    margin-top:29px;
+}
+#comfacebook{
+    background:url(../images/comparte-b0-facebook.png) no-repeat;
+    width:70px;
+    height:20px;
+    float:left;
+    margin-left:10px;
+    margin-top:29px;
+}
+#comemail{
+    background:url(../images/comparte-b0-email.png) no-repeat;
+    width:54px;
+    height:20px;
+    float:left;
+    margin-left:10px;
+    margin-top:29px;
+}
+#comtwitter:hover{
+    background:url(../images/comparte-b1-twitter.png) no-repeat;
+    cursor:pointer;
+}
+#comtuenti:hover{
+    background:url(../images/comparte-b1-tuenti.png) no-repeat;
+    cursor:pointer;
+}
+#comfacebook:hover{
+    background:url(../images/comparte-b1-facebook.png) no-repeat;
+    cursor:pointer;
+}
+#comemail:hover{
+    background:url(../images/comparte-b1-email.png) no-repeat;
+    width:54px;
+    height:20px;
+    float:left;
+    cursor:pointer;
+}
+/*para la busqueda*/
+#blobuscar{
+    width:678px;
+    height:420px;
+    float:right;
+    margin-right:56px;
+    background:url(../images/busqueda-bg-videos-encontrados.png) no-repeat;
+}
+#buscol1{
+    width:330px;
+    float:left;
+    margin-top:53px;
+    margin-left:23px;
+}
+#buscol2{
+    width:285px;
+    height:320px;
+    margin-right:19px;
+    margin-top:52px;
+    float:right;
+    overflow:auto;
+}
+#privideo{
+    width:330px;
+    height:210px;
+    float:left;
+}
+.encontrado{
+    width:255px;
+    height:56px;
+    float:left;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+.encfoto{
+    width:104px;
+    height:56px;
+    float:left;
+}
+.titencontrado{
+    text-indent:10px;
+    text-align:left;
+    color:#542989;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+}
+.desencontrado{
+    text-indent:10px;
+    text-align:left;
+    color:#E2007A;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 9px;
+    font-weight:normal;
+}
+#busvolver{
+    width:178px;
+    height:20px;
+    float:left;
+    margin-top:20px;
+    background:url(../images/busqueda-volver.jpg) no-repeat;
+    cursor:pointer;
+}
+.nohayvideo{
+    background-image:none;
+    background:url(../images/nohayvideos.jpg) no-repeat center;
+}
+#linkparticipa{
+    width:161px;
+    height:20px;
+    position:relative;
+    left:80px;
+    top:93px;
+    cursor:pointer;
+}
+#inicol1{
+    width:235px;
+    float:left;
+    margin-left:30px;
+    clear:left;
+}
+#inicol1 #iniqueesmoxie{
+    width:235px;
+    height:132px;
+    float:left;
+}
+#inicol1 #hlinsertatucod{
+    background:url(../images/hl-inserta-tu-codigo.png) no-repeat; margin-top:-6px;
+    width:235px;
+    height:125px;
+    float:left;
+    /*position:relative;
+    top:-15px;*/
+}
+#inicol1 #hlinsertatucod #codigo{
+    float:left;
+    margin-left:41px;
+    margin-top:63px;
+    width:120px;
+    height:20px;
+    background:none;
+    border:none;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    padding-top:10px;
+    padding-left:10px;
+    position:relative;
+    z-index:115;
+}
+#inicol1 #codsubmit{
+    float:left;
+    margin-left:0px;
+    margin-top:68px;
+    width:15px;
+    height:20px;
+    position:relative;
+    z-index:7;
+}
+#inicol1 #hlsiguenosen{
+    width:235px;
+    height:108px;
+    display:block;
+    float:left;
+    margin-top:-5px;
+    background:url(../images/hl-siguenos-en.png) no-repeat;
+}
+#inicol1 #siguenos_tuenti{
+    width:48px;
+    height:12px;
+    float:left;
+    position:relative;
+    left:-10px;
+    top:30px;
+    cursor:pointer;
+}
+#inicol1 #siguenos_twitter{
+    width:50px;
+    height:12px;
+    float:left;
+    clear:left;
+    left:88px;
+    top:19px;
+    position:relative;
+    cursor:pointer;
+}
+#inicol1 #siguenos_facebook{
+    width:45px;
+    height:12px;
+    float:left;
+    clear:left;
+    left:128px;
+    top:17px;
+    position:relative;
+    cursor:pointer;
+}
+#flparticipa{
+    float:left;
+    margin-top:4px;
+    margin-left:-15px;
+}
+#contcentral{
+    width:447px; height:440px; float:left;
+}
+#inicol2{
+    float:right;
+    width:205px;
+    margin-right:30px;
+    margin-top:-75px;
+}
+#iniseparador{
+    height:10px;
+    width:35px;
+    float:left;
+}
+#book{
+width:980px;
+height:430px;
+margin-left:0px; z-index:1;
+float:left;
+margin-top:-88px;
+}
+#contnoticias{
+    width:473px;
+    height:288px;
+    float:left;
+    margin-top:60px;
+    margin-left:50px;
+    overflow:hidden;
+}
+#linkpdf{
+    width:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:30px;
+    background:url(../images/ico-pdf.png) no-repeat left;
+    padding-left:30px;
+    font-family:Arial, Tahoma, Trebuchet;
+    font-size:11px;
+    text-align:left;
+    font-weight:bold;
+    color: #e2007a;
+    font-family: Arial, sans-serif, Tahoma, Verdana;
+    text-decoration:underline;
+}
+#btnparticipa{
+    width:165px;
+    height:45px;
+    position:relative;
+    left:180px;
+    top:-50px;
+    cursor:pointer;
+    float:left;
+    background:#FFFFFF;
+    opacity: 0.01;
+    filter:alpha(opacity=1);
+    moz-opacity:0.01;
+
+}
+#hlcientochicas{
+    /*background:url(../images/x-hl-ciento-de-chicas.png) no-repeat;*/
+    width:235px;
+    height:142px;
+    float:left;
+    position:relative;
+    z-index:100;
+    margin-bottom:-15px;
+}
+#hlqueesmoxie{
+    /*background:url(../images/x-hl-que-es-moxie.png) no-repeat;*/
+    width:235px;
+    height:104px;
+    float:left;
+    position:relative;
+    z-index:110;
+    margin-top:-20px;
+}
+#flashconcurso{
+    float:left;
+}
+#maskconcurso{
+    float:left;
+    width:100%;
+    height:150px;
+    background:#FFFFFF;
+    opacity: 0.01;
+    filter:alpha(opacity=1);
+    moz-opacity:0.01;
+    margin-top:-210px;
+    cursor:pointer;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+    #pagina{
+        top:-293px;
+        margin-top:26%;
+    }
+}

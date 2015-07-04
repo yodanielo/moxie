@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+#conteinicio{
+width:980px;
+height:440px;
+display:block;
+position:relative; margin-top:-88px; margin-left:0px; z-index:2; 
+}
+/*codigo insertado*/
+#conteinicio{
+width:980px;
+height:440px;
+display:block;
+position:relative; /*margin-top:0px;*/ margin-left:300px; z-index:2;
+}
+/*fin de codigo insertado*/
+#hlinsertatucod{
+width:235px;
+height:125px;
+background-image: none;
+float:left;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/hl-inserta-tu-codigo.png", sizingMethod=”scale”);
+}
+
+#hlsiguenosen{
+width:235px;
+height:108px;
+display:block;
+cursor:pointer;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/hl-siguenos-en.png", sizingMethod=”scale”);
+}
+
+#bgnoticias{
+width:580px;
+height:402px;
+display:block;
+background-image: none;/*codigo insertado*/
+position:relative; margin-top:-310px; /*margin-left:0px;*/ /*fin de codigo insertado*/
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-noticias-moxie.png", sizingMethod=”scale”);
+}
+
+#bgdescargas{
+width:580px;
+height:402px;
+display:block;
+background-image: none;/*codigo insertado*/
+position:relative; margin-top:-310px; /*margin-left:0px;*/ /*fin de codigo insertado*/
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-descargas-moxie.png", sizingMethod=”scale”);
+}
+
+#cuponprintbg{
+width:890px;
+height:440px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/cupon-print-bg.png", sizingMethod=”scale”);
+}
+
+#banizquierda{
+    float:left;
+    margin-left:-200px;
+    width:150px;
+    position:relative;
+}
+
+#banizqespacio{
+    display:none;
+}
+
+#contcentral{
+    margin-left:-30px;
+}
+
+#bgcontacto{
+width:580px;
+height:402px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-contacto-moxie.png", sizingMethod=â€�scaleâ€�);
+}
+
+#bgavisolegal{
+width:580px;
+height:402px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-aviso-legal-moxie.png", sizingMethod=â€�scaleâ€�);
+}
+
+#bgmapaweb{
+width:580px;
+height:402px;
+display:block;
+background-image: none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-mapa-web-moxie.png", sizingMethod=â€�scaleâ€�);
+}

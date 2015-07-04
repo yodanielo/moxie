@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+#conteinicio{
+width:980px;
+height:440px;
+display:block;
+position:absolute; margin-top:122px; margin-left:0px; z-index:2;
+}
+
+#hlinsertatucod{
+width:235px;
+height:125px;
+display:block;
+background:url(../images/hl-inserta-tu-codigo.png) no-repeat; margin-top:-6px;
+}
+
+#hlsiguenosen{
+width:235px;
+height:108px;
+display:block;
+background:url(../images/hl-siguenos-en.png) no-repeat; 
+}
+
+#bgnoticias{
+width:580px;
+height:402px;
+display:block;
+background:url(../images/bg-noticias-moxie.png) no-repeat; 
+}
+
+#titnoticia{
+font-size: 14px; color: #542989; font-family: Arial, sans-serif, Tahoma, Verdana; line-height: 16px; font-weight:bold;
+}
+#txtnoticia{
+font-size: 10px; color: #e2007a; font-family: Arial, sans-serif, Tahoma, Verdana; line-height: 16px;
+}
+
+#bgdescargas{
+width:580px;
+height:402px;
+display:block;
+background:url(../images/bg-descargas-moxie.png) no-repeat; 
+}
+
+#cuponprintbg{
+width:890px;
+height:440px;
+display:block;
+background:url(../images/cupon-print-bg.png) no-repeat; 
+}
+
+#cupontxtvalido{
+font-size: 10px; color: #020004; font-family: Arial, sans-serif, Tahoma, Verdana; line-height: 13px;
+}
+
+#contcentra{
+    width:447px; height:440px; float:left;
+}
+/*codigo insertado*/
+#txtfooter{
+width:670px; height:40px; float:left; font-size: 10px; color: #4cb3cd; font-family: Arial, sans-serif, Tahoma, Verdana; text-align:right;
+}
+
+a.bfooter:link, a.bfooter:visited {font-family: Arial, sans-serif, Tahoma, Verdana; font-size: 10px; color:#4cb3cd; text-decoration:none; }
+a.bfooter:active, a.bfooter:hover {font-family: Arial, sans-serif, Tahoma, Verdana; font-size: 10px; color:#4cb3cd; text-decoration:none; }
+
+a.bmapaweb:link, a.bmapaweb:visited {font-family: Arial, sans-serif, Tahoma, Verdana; font-size: 11px; color:#000000; text-decoration:none; }
+a.bmapaweb:active, a.bmapaweb:hover {font-family: Arial, sans-serif, Tahoma, Verdana; font-size: 11px; color:#e2007a; text-decoration:underline; }
+
+#bgcontacto{
+width:580px;
+height:402px;
+display:block;
+background:url(../images/bg-contacto-moxie.png) no-repeat; 
+}
+
+#bgavisolegal{
+width:580px;
+height:402px;
+display:block;
+background:url(../images/bg-aviso-legal-moxie.png) no-repeat;
+}
+
+#bgmapaweb{
+width:580px;
+height:402px;
+display:block;
+background:url(../images/bg-mapa-web-moxie.png) no-repeat;
+}
+/*fin de codigo insertado*/
+
+#codigo{
+    float:left;
+    margin-left:41px;
+    margin-top:63px;
+    width:120px;
+    height:20px;
+    background:none;
+    border:none;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    padding-top:5px;
+    padding-left:10px;
+    position:relative;
+    z-index:6;
+}
+#codsubmit{
+    float:left;
+    margin-left:0px;
+    margin-top:64px;
+    width:15px;
+    height:20px;
+    position:relative;
+    z-index:7;}
+#codtxtdescarga{
+    width:200px;
+    height:161px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px; line-height: 18px;
+    text-align: justify;
+    position:relative;
+    left:85px;
+    top:210px;
+}
+#codtxtcodigo{
+    position:relative;
+    top:158px;
+    left:589px;
+    color:#5314a2;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    width:120px;
+}
+#codtxtabajo{
+    position:relative;
+    left:330px;
+    top:307px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 9px;
+    width:560px;
+}
+#codimprimir{
+    position:relative;
+    left:832px;
+    top:290px;
+    width:86px;
+    height:30px;
+    /*background:url(../images/cupon-print-btn-imprimir.JPG) no-repeat;*/
+    cursor:pointer;
+}
+#imgcenter{
+ 	position:absolute;
+ 	width:980px;
+ 	height:585px;
+ 	left:50%;
+ 	margin-left:-490px;
+}
+
+#flparticipa{
+    position:relative;
+    top:4px;
+}
+#bgavisolegal{
+     width:580px;
+     height:450px;
+     float:left;
+}
+#btnparticipa{
+    width:165px;
+    height:45px;
+    position:relative;
+    left:180px;
+    top:-50px;
+    cursor:pointer;
+}
+#siguenos_tuenti{
+    width:68px;
+    height:22px;
+    position:relative;
+    left:62px;
+    top:40px;
+    cursor:pointer;
+}
+#siguenos_twitter{
+    width:78px;
+    height:22px;
+    left:90px;
+    top:41px;
+    position:relative;
+    cursor:pointer;
+}
+/*#contnoticias{
+    width:473px;
+    height:288px;
+    float:left;
+    margin-top:60px;
+    margin-left:50px;
+    overflow:hidden;
+}*/
+#not3{
+    margin-top:26px;
+}
+.cuanoticia{
+    width:450px;
+    float:left;
+    margin-bottom:26px;
+}
+.cuaimagen{
+    width:120px;
+    height:80px;
+    float:left;
+}
+.cuatitulo{
+    width:308px;
+    float:right;
+    color:#542989;
+    text-align:left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.cuatexto{
+    width:308px;
+    float:right;
+    color:#E2007A;
+    text-align:justify;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,72 @@
+html {
+	height: 100%;
+	overflow: hidden;
+}
+body{
+background-color:#FFFFFF;
+}
+#login_center {
+ position:absolute;
+ top:50%;
+ width:397px;
+ height:600px;
+ left:50%;
+ margin-left:-198px;
+ margin-top:-300px;
+ background:url(../images/bg-login.jpg) no-repeat;
+
+}
+.login_label{
+ font-family:"Humanist 777 BT","Trebuchet MS", Arial;
+ font-size:11px;
+ width:180px;
+ height:20px;
+ color:#000000;
+ text-align:left;
+}
+.login_input{
+position:relative;
+ font-family:"Humanist 777 BT","Trebuchet MS", Arial;
+ font-size:11px;
+ width:180px;
+ height:20px;
+ color:#666666;
+ border:1px solid #EB5C8A;
+}
+.login_submit{
+ font-family:"Humanist 777 BT","Trebuchet MS", Arial;
+ font-size:11px;
+ width:120px;
+ height:20px;
+ border:0px;
+ color:#FFFFFF;
+ background-color:#EB5C8A;
+}
+#contenido{
+float:left;
+width:242px;
+height:366px;
+margin-top:130px;
+margin-left:77px;
+display:inline;
+}
+#cont_img{
+float:left;
+width:66px;
+height:66px;
+margin-top:56px;
+margin-left:18px;
+display:inline;
+}
+
+#cont{
+float:left;
+width:198px;
+height:175px;
+margin-left:30px;
+display:inline;
+
+}
+
+form { margin:0px; padding:0px; }
+

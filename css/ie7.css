@@ -1,0 +1,42 @@
+#losnuestros{
+    margin-left:70px;
+}
+#videoprincipal{
+    margin-top:15px;
+    margin-left:80px;
+}
+#videoprincipal1{
+    margin-top:15px;
+    margin-left:35px;
+}
+#inicol2{
+    margin-top:25px;
+}
+#legales{
+    float:left;
+    clear:left;
+    width:950px;
+    margin-top:5px;
+}
+.navfoto{
+    width:209px;
+    padding-right:0px;
+    padding-left:3px;
+    line-height:14px;
+    
+}
+.contfoto{
+    padding-bottom:4px;
+}
+.comptexto{
+    margin-left:-65px;
+}
+#legales{
+    margin-top:-4px;
+}
+#legales2{
+    margin-top:5px;
+    margin-left:-70px;
+    float:right;
+    clear:right;
+}

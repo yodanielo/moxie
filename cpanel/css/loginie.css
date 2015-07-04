@@ -1,0 +1,12 @@
+#login_center {
+ position:absolute;
+ top:50%;
+ width:320px;
+ height:460px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/login-cp.png',sizingMethod='none');
+background: none; 
+background-repeat:no-repeat;
+ left:50%;
+ margin-left:-150px;
+ margin-top:-230px;
+}
